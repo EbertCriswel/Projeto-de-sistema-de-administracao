@@ -1,7 +1,7 @@
 package products;
 
 public class FactGeradorDeProdut {
-    public Produtos geradorProduot(){
+    public Produto geradorProduot(){
         return null;
     }
 

@@ -1,0 +1,14 @@
+OBJETIVO: Criar um projeto onde posso usar conceitos de POO, Comunicação via api, leitura de api e lidar com PDF.
+
+--------- CLASSES, MÉTODOS E SUAS RESPECTIVAS FUNÇÕES: ----------
+
+    Classe ("Lote") :
+
+        - Criar lotes para diferenciar e saber quais chegaram primeiro, e por isso devem sair primeiro
+        caso seja necessario, conseguir ordenar por ondem de datas. Fazer promoções caso faltem 45 dias para
+        vencerem. (Vai além da classe lote em si).
+
+        - Preciso criar como lote para armazenar os produtos e depois adicionar ao estoque;
+
+
+

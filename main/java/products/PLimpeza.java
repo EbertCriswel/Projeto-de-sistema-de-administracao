@@ -8,28 +8,4 @@ public class PLimpeza extends Produto  {
         super(nome, data,valor);
     }
 
-    @Override
-    public void setNome(String novoNome) {
-        if(getNome() != null || !getNome().equals(" ")){
-            this.nome = novoNome;
-        }
-        System.out.println("Impossível realizar troca de nomes!");
-
-    }
-
-    @Override
-    public String getNome() {
-        return nome;
-    }
-
-    @Override
-    public void setValor(double valor) {
-
-
-    }
-
-    @Override
-    public double getValor() {
-        return valor;
-    }
 }

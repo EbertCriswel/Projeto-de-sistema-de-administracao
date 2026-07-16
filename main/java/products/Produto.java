@@ -25,19 +25,33 @@ public abstract class Produto{
 
 
     public void setNome(String nome){
+        if(!nome.equals("") || nome != null ){
+            this.nomeDoProduto = nome;
+        }else{
+            System.out.println("N foi possivel relaizar a operação");
+        }
 
     }
 
     public String getNome(){
-        return "Ebert";
+        return this.nomeDoProduto;
     }
 
     public void setValor(double valor){
+        this.valorDoProduto = valor;
 
     }
 
-    public double getValor  (){
-        return 0;
+    public double getValor (){
+        return this.valorDoProduto;
+    }
+
+    public String getCategoria(){
+        return this.categoriaDoProduto;
+    }
+
+    public Date getData(){
+        return this.dataDeValidade;
     }
 
 

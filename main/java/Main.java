@@ -1,9 +1,13 @@
+import products.FactGeradorDeProdut;
 import products.PAlimenticio;
 
 public class Main {
 
     public static void main(String[] args) {
-        PAlimenticio p = new PAlimenticio("Creme de leite", );
+         FactGeradorDeProdut produto = new FactGeradorDeProdut();
+         produto.geradorProduto("Creme de Leite", "12/05/2026", 3.5, "Higienico");
+
+
 
     }
 }

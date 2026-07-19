@@ -2,6 +2,8 @@ OBJETIVO: Criar um projeto onde posso usar conceitos de POO, Comunicação via a
 
 --------- CLASSES, MÉTODOS E SUAS RESPECTIVAS FUNÇÕES: ----------
 
+    ----- Pacote products -----
+
     Classe ("Lote") :
 
         - Criar lotes para diferenciar e saber quais chegaram primeiro, e por isso devem sair primeiro
@@ -9,6 +11,29 @@ OBJETIVO: Criar um projeto onde posso usar conceitos de POO, Comunicação via a
         vencerem. (Vai além da classe lote em si).
 
         - Preciso criar como lote para armazenar os produtos e depois adicionar ao estoque;
+    Classe ("FactGeradorDeProdut") :
+        -
+    Classe ("Lote") :
+        -
+    Classe ("PAlimenticio") ;
+        -
+    Classe ("PHigiene") :
+        -
+    Classe ("PLimpeza") :
+        -
+    Classe ("POutros") :
+        -
+    Classe Abstrata ("Produto") :
+        -
+    ----- java -----
+
+    Classe ("Estoque") :
+        -
+    Classe ("Relatorio") :
+        -
 
 
 
+
+OBS: Usarei o padrão observer para comunicar a exclusão no banco e para informar o front e retirar da lista, além,
+de apagar nos locais que possuem aquele objeto.

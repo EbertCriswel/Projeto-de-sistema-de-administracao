@@ -4,19 +4,24 @@ import java.util.Date;
 
 public abstract class Produto{
 
+    //Precisa colocar um hascode para diferenciar cada produto
+    //Também é importante classificar por marca, mas ai é num método de consulta, mas precisa ter essa informarçao
+    //ao gerar o produto
+
     private String nomeDoProduto;
-    private Date dataDeValidade;
+    private String dataDeValidade;
     private double valorDoProduto;
     private String categoriaDoProduto;
+    public Lote lote;
 
-    public Produto(String nome,final Date data, double valor, String categoria) {
+    public Produto(String nome,final String data, double valor, String categoria) {
         this.nomeDoProduto = nome;
         this.dataDeValidade = data;
         this.valorDoProduto = valor;
         this.categoriaDoProduto = categoria;
     }
 
-    public Produto(String nome,final Date data, double valor) {
+    public Produto(String nome,final String data, double valor) {
         this.nomeDoProduto = nome;
         this.dataDeValidade = data;
         this.valorDoProduto = valor;
@@ -50,7 +55,7 @@ public abstract class Produto{
         return this.categoriaDoProduto;
     }
 
-    public Date getData(){
+    public String getData(){
         return this.dataDeValidade;
     }
 

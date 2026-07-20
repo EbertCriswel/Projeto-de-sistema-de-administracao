@@ -1,13 +1,14 @@
-import products.Produto;
+package projeto;
 
-import java.util.ArrayList;
+import projeto.products.Produto;
+
 import java.util.HashMap;
 
-public class Estoque {
+public class Estoque implements ReceberNotificacao{
 
     HashMap<String,HashMap<String, Produto>> estoque = new HashMap();
 
-    public void adicionarAoEstoque(){
+    public void adicionarAoEstoque(Produto p, String nomeP){
         //Temos que colocar a quantidade do produto
 
     }

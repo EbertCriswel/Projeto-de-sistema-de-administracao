@@ -1,8 +1,7 @@
-package products;
+package projeto.products;
 
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Lote {
     //Aqui vou colocar os diversos tipos de lote

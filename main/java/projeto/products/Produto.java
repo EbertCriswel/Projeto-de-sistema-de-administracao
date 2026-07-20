@@ -1,6 +1,4 @@
-package products;
-
-import java.util.Date;
+package projeto.products;
 
 public abstract class Produto{
 

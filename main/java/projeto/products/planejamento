@@ -27,9 +27,9 @@ OBJETIVO: Criar um projeto onde posso usar conceitos de POO, Comunicação via a
         -
     ----- java -----
 
-    Classe ("Estoque") :
+    Classe ("projeto.Estoque") :
         -
-    Classe ("Relatorio") :
+    Classe ("projeto.Relatorio") :
         -
 
 
@@ -37,3 +37,6 @@ OBJETIVO: Criar um projeto onde posso usar conceitos de POO, Comunicação via a
 
 OBS: Usarei o padrão observer para comunicar a exclusão no banco e para informar o front e retirar da lista, além,
 de apagar nos locais que possuem aquele objeto.
+
+- Toda vez que um produto for criado, então ele deve ser adicionado. Ou seja, preciso criar uma lista com os
+observadores que serão notificados e irão adicionar o produto na MAP

@@ -1,4 +1,4 @@
-package products;
+package projeto.products;
 
 public interface Notificar {
     //Issa interface será usada para fazer o padrão observer

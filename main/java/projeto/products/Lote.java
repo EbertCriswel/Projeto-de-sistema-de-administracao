@@ -1,16 +1,51 @@
 package projeto.products;
 
 
-import java.util.ArrayList;
+import projeto.Estoque;
+
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Lote {
-    //Aqui vou colocar os diversos tipos de lote
-    //Criar métodos one posso pegar o lote e reconhecer pela data
-    //Caso a data seja diferente crio outro lote e adiciono
-    //Pelo lote se saberá qual é mais antigo e qual é mais recente
+
+    static HashMap<String, Lote> acessarLote = new HashMap<>();
+
+    Set<String> lotes = new HashSet<>();
+
+    public Lote(){
+        if()
 
 
-    ArrayList<Produto> lote = new ArrayList<Produto>();
+    }
+
+
+
+    public void addAoLote(Produto p, String cod){
+        /*if(cod != null){
+            for (String lote : lotes){
+                if (lote.equals(cod)){
+                    acessarLote.put(p.getNome(), );
+
+                }
+            }
+
+        }*/
+
+    }
+
+    public boolean existe(){
+
+
+        return true;
+
+    }
+
+    public void geradorLote(){
+
+
+    }
 
 
 

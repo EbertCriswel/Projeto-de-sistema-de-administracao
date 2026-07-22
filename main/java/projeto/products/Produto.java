@@ -10,9 +10,10 @@ public abstract class Produto{
     private String dataDeValidade;
     private double valorDoProduto;
     private String categoriaDoProduto;
-    public Lote lote;
+    public String lote;
+    private int quantidade;
 
-    public Produto(String nome,final String data, double valor, String categoria) {
+    public Produto(String nome,final String data, double valor, String categoria, String lote) {
         this.nomeDoProduto = nome;
         this.dataDeValidade = data;
         this.valorDoProduto = valor;
@@ -23,6 +24,14 @@ public abstract class Produto{
         this.nomeDoProduto = nome;
         this.dataDeValidade = data;
         this.valorDoProduto = valor;
+
+    }
+
+    public Produto(String nome,final String data, double valor, String lote) {
+        this.nomeDoProduto = nome;
+        this.dataDeValidade = data;
+        this.valorDoProduto = valor;
+        this.lote = lote;
 
     }
 
